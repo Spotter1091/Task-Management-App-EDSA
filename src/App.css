@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: mediumslateblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 48px;
+    height: 39px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #1A1A40;
+    padding: 3rem;
+    border-radius: 5px;
+    min-height: 30vh;
+}
+
+form input {
+    width: 300px;
+    border: 1px solid #8758ff;
+}
+
+form input,
+form button {
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    background: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+input::placeholder {
+    color: #ffffff4d;
+}
+
+button {
+    color: #fbfbfb;
+    border: 1px solid #8758ff;
+}
+
+form button {
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+form button:hover {
+    color: white;
+    background-color: mediumslateblue;
+}
+
+.task-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: mediumslateblue;
+    border-radius: 2rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.fa-trash {
+    margin-left: 0.75rem;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
